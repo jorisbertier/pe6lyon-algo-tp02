@@ -1,0 +1,73 @@
+/*FONCTION mentionAB(var note) {
+    DEBUT
+    
+        SI note => 12
+        &&  note < 14 ALORS
+        Renvoyer AB;
+        FINSI
+    FIN
+
+FONCTION mentionBIEN(var note) {
+    DEBUT
+    
+        SI note => 14
+        && note < 16 ALORS
+        Renvoyer BIEN;
+        FINSI
+    FIN
+
+
+FONCTION mentionTB(var note) {
+    DEBUT
+    
+        SI note => 16
+        && note < 18 ALORS
+        Renvoyer AB;
+        FINSI
+    FIN
+
+FONCTION mentionEXCELLENT(var note) {
+    DEBUT
+        SI note > 18
+        Renvoyer EXCELLENT;
+        FINSI
+    FIN
+
+
+FONCTION mention(var note) : chaîne de caractères|FAUX
+CN1 var ab 
+CN2 var Bien
+CN3 var TB
+CN4 Excellent
+CN5 Si note inferieur à 0 et superieur à 20
+    DEBUT
+        Renvoyer Mention
+    FIN
+    Renvoyer FAUX
+
+
+
+
+Cette routine doit renvoyer :
+ « AB » si 12 ≤ note <14
+ « Bien » si 14 ≤ note < 16
+ « TB » si 16 ≤ note < 18
+ « Excellent » si note ≥ 18
+ Attention, une note n’est valide que si elle est comprise entre 0 et 20 (renvoyer false en
+cas d’erreur)*/
+
+FONCTION mention(var note) : chaîne de caractères|FAUX
+    SI note < 0 OU note > 20 ALORS
+        RETOURNER FAUX
+    SINON SI note >= 12 ET note < 14 ALORS
+        RETOURNER "AB"
+    SINON SI note >= 14 ET note < 16 ALORS
+        RETOURNER "Bien"
+    SINON SI note >= 16 ET note < 18 ALORS
+        RETOURNER "TB"
+    SINON SI note >= 18 ALORS
+        RETOURNER "Excellent"
+    SINON
+        RETOURNER FAUX
+    FIN SI
+FIN FONCTION
