@@ -45,7 +45,11 @@ function sommeEntier($n) {
 
     /*CN2 Nombre négatif*/ 
     function testsommeEntier1() {
+<<<<<<< HEAD
     if(sommeEntier(-1) === false ) {
+=======
+    if(sommeEntier(-1) ===) {
+>>>>>>> tdd1
         echo "TEST sommeEntier : Reussi !\n";
     }
     else {
