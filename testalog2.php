@@ -98,14 +98,15 @@ function testMention2() {
     
     testMention5();
 
-        /*CN6*/
-        function testMention6() {
-            if(mention(8)== "Note de merde") {
-                echo "TEST testMention6 : Reussi !\n";
-            }
-            else {
-             echo "Test testMention6 : Echec";
-            }
-            }
+    /*CN6*/
+    function testMention6() {
+    if(mention(8)== "Note de merde") {
+            echo "TEST testMention6 : Reussi !\n";
+    }
+     else {
+     echo "Test testMention6 : Echec";
+     }
+    }
+    
             
-            testMention6();
+   testMention6();
