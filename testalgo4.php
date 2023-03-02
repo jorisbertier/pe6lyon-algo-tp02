@@ -32,7 +32,7 @@ function sommeEntier($n) {
   var_dump(sommeEntier(-5));
 
   /*CN1 Nombre possitif*/ 
-function testsommeEntier() {
+    function testsommeEntier() {
     if(sommeEntier(10) == 55) {
         echo "TEST sommeEntier : Reussi !\n";
     }
@@ -42,3 +42,15 @@ function testsommeEntier() {
     }
     
     testsommeEntier();
+
+    /*CN2 Nombre négatif*/ 
+    function testsommeEntier1() {
+    if(sommeEntier(-1) === false ) {
+        echo "TEST sommeEntier : Reussi !\n";
+    }
+    else {
+     echo "Test sommeEntier : faux";
+    }
+    }
+    
+    testsommeEntier1();
