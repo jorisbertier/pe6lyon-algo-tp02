@@ -17,7 +17,7 @@ function renvoiPlusGrandNbre($nbr1, $nbr2) {
     if($nbr1 == $nbr2) {
         echo "Les 2 sont pareils";
     }
-    return false;
+    return $nb1;
 }
 
 var_dump(renvoiPlusGrandNbre(10, 15));
