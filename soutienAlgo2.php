@@ -45,6 +45,6 @@ return "non valide";
 }
 
 var_dump(survivre("homme", 18));
-var_dump(survivre("femme", 17));s
+var_dump(survivre("femme", 17));
 var_dump(survivre("homme", 20));
 var_dump(survivre("femme", 20));
