@@ -16,7 +16,7 @@ function renvoiPlusGrandNbre1($nb1, $nb2, $nb3) {
     if($nb1 > $nb2 && $nb1 > $nb3 ) {
         return $nb1;
     }
-    return false;
+    return $nb1;
 }
 
 
