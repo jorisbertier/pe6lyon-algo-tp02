@@ -60,4 +60,43 @@ else {
 
 
 var_dump($position_y);
-var_dump($position_x);*/
+var_dump($position_x);
+
+Consigne
+Vous devez créer un algorithme qui permet de déplacer le joueur à l’aide de la fonction  déplacement  créée précédemment,
+ de la case de départ à l’arrivée. Attention, le joueur aura au maximum 15 déplacements. Si le nombre de déplacements dépasse 15,
+  le joueur perd.
+
+Votre objectif :
+Créer une boucle qui permet de déplacer le joueur en prenant en compte la position du joueur et le nombre de déplacements.
+
+Créer ensuite une structure conditionnelle pour la boucle, pour afficher si le joueur a gagné ou perdu.
+
+function deplacement();
+
+for($i =0; $i < 15; $i++) {
+
+}*/
+
+/*
+
+FONCTION 
+VARIABLE
+joueurPositionX = 0
+joueurPositionY = 0
+arriveePositionX = 5
+arriveePositionY = 5
+maxDeplacement = 15
+DEBUT
+    TANT QUE var joueurpositionX != var arriveePositionX && var joueurpositionY != var arriveePositionY && maxdeplacment <15 ALORS
+        deplacement(var joueurpositionX, var joueurpositionY)
+        deplacment ++
+    FIN TANT QUE
+    IF var joueurpositionX == var arriveePositionX && var joueurpositionY == var arriveePositionY  ALORS
+    Affiche gagner
+    FIN SI
+    SINON
+    Affiche perdu
+FIN
+
+*/
