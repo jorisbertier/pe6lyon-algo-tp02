@@ -30,7 +30,7 @@ function afficherEtoilesMultiple($nb_etoiles) {
     }
 }
 
-var_dump(afficherEtoilesMultiple(4));*/
+var_dump(afficherEtoilesMultiple(4));
 
 /*
  PROCÉDURE afficherÉtoiles( var nb_étoiles) DÉBUT
