@@ -1,0 +1,9 @@
+EXERCICE 1
+
+
+FONCTION mean(var nb1, var nb2) : décimal
+
+    DEBUT
+        Renvoyer (var nb1 +var nb2) /2
+    FIN
+
