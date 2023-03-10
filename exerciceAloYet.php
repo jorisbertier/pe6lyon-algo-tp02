@@ -68,5 +68,20 @@ Déclarer ordre_ma_valeur <- ordre_valeurs[this.valeur]
         FINSI
         Renvoyer 1
 
+Type main
+    Declarer cartes[]
 
+PROCEDURE
+FIN
+CN1 trier des cartes d'une main     dans une liste ou se trouve les trefles
+CN2 trier des cartes du plus petit au plus grand
+PROCEDURE trier()
 
+if this.ordre_couleurs == this.ordre_valeurs {
+    
+}
+$i=0
+while $i < count(cartes[5]){
+    echo "Vous avez la carte cartes[]"
+    $i++;
+}
